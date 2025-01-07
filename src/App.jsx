@@ -5,6 +5,8 @@ import React from 'react';
     import FAQ from './components/FAQ';
     import Community from './components/Community';
     import P2P from './components/P2P';
+    import Marketplace from './components/Marketplace';
+    import SignIn from './components/SignIn';
 
     function App() {
       return (
@@ -29,6 +31,8 @@ import React from 'react';
             <Route path="/faq" element={<FAQ />} />
             <Route path="/community" element={<Community />} />
             <Route path="/p2p" element={<P2P />} />
+            <Route path="/marketplace" element={<Marketplace />} />
+            <Route path="/signin" element={<SignIn />} />
           </Routes>
           <footer className="footer">
             <p>made with love by RajkumarSinha</p>
